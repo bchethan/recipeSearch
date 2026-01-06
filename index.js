@@ -4,7 +4,7 @@ const details = document.getElementById("details")
 generateBtn.addEventListener("click",callBackend)
 
 async function callBackend(){
-    const response = await fetch('http://localhost:8000/')
+    const response = await fetch('https://recipesearches.netlify.app/api')
     const data = await response.json()
 
     details.innerHTML = `<h2>${data.recipes[0].title}</h2>
