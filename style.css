@@ -1,0 +1,15 @@
+body{
+    background-color: forestgreen;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    padding: 7px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: inherit;
+    background-color: red;
+}
