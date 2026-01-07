@@ -5,7 +5,7 @@ generateBtn.addEventListener("click",callBackend)
 
 async function callBackend(){
     
-    const response = await fetch('http://localhost:8000/api')
+    const response = await fetch('https://recipesearch-production.up.railway.app/api')
     const data = await response.json()
 
     details.innerHTML = `<h2>${data.recipes[0].title}</h2>
